@@ -438,5 +438,134 @@ h3{
     font-size: 12px;
     border-bottom: 1px solid #F52929;
 }
-
+.noob_1{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.noob_inner{
+    width: 87.2%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.noob_txt2{
+    color: #707070;
+}
+.noob_title{
+    position: relative;
+    display: block;
+    width: 87.2%;
+    margin:  0 auto;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #2B2B2E;
+    font-weight: bold;
+}
+.noob_title::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -8px;
+    transform: translate(0,-50%);
+    width: 4px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #2B2B2E;
+}
+.noob_title2{
+    position: relative;
+    display: block;
+    width: 87.2%;
+    margin:  0 auto;
+    margin-top: 32px;
+    font-size: 16px;
+    color: #2B2B2E;
+    font-weight: bold;
+}
+.noob_title2::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -8px;
+    transform: translate(0,-50%);
+    width: 4px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #2B2B2E;
+}
+.rule_btn{
+    border:3px solid#41D3B1;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px #cccccc;
+    line-height: 48px;
+    width: 72.53%;
+    font-size: 16px;
+    border-radius: 30px;
+    display: block;
+    margin: 16px auto 0;
+    position: relative; 
+    color: #41D3B1;
+    text-align: center;
+    font-weight: bold;
+}
+.rule_btn span{
+    position: absolute;
+    content: "";
+    color: transparent;
+    top: 50%;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 5px solid #41D3B1;
+    border-right: 5px solid #41D3B1;
+    transform: rotate(45deg) translate(-38px, 28px);
+}
+.map{
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 0;
+    width: 77%;
+}
+iframe{
+    padding: 0;
+}
+.map_txt{
+    font-size: 12px;
+    margin: 0;
+    margin-top: 4px;
+}
+.ac_txt{
+    margin-bottom: 0;
+    margin-top: 12px;
+    color: #707070;
+}
+.ac_txt2{
+    display: block;
+    margin: 0 auto;
+    width: 87.2%;
+    font-size: 14px;
+}
+.ac_txt3{
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.ac_h2{
+    font-size: 18px;
+    width: 90%;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    margin-top: 59px;
+    border-bottom: 2px solid black;
+}
+.ac_img{
+    width: 88px;
+    height: 88px;
+}
+.ac2_img{
+    width: 54px;
+    height: 54px;
+    margin:auto 0 0 0;
+}
 
