@@ -194,6 +194,7 @@ iframe{
 }
 .sc_2{
     width: 100%;
+    padding-top: 80px;
     padding-bottom: 24px;
     background-color: #FFFFFF;
 }
@@ -229,9 +230,9 @@ iframe{
     right: 0;
     width: 10px;
     height: 10px;
-    border-top: 5px solid #41D3B1;
-    border-right: 5px solid #41D3B1;
-    transform: rotate(45deg) translate(-38px, 28px);
+    border-top: 3px solid #41D3B1;
+    border-right: 3px solid #41D3B1;
+    transform: rotate(45deg) translate(-65px, 58px);
 }
 .main_sc{
     width: 90%;
@@ -337,10 +338,11 @@ h3{
 }
 .nuub_btn{
     display: block;
-    width: 72.53vw;
+    width: 72.53%;
     line-height: 48px;
     text-align: center;
     margin: 0 auto;
+    font-size: 16px;
     border: #F52929;
     background-color: #F52929;
     border-radius: 30px;
@@ -355,10 +357,7 @@ h3{
     height: 10px;
     border-top: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
-    transform: rotate(45deg) translate(-305px, -155px);
-}
-.nuub_btn a{
-    font-size: 16px;
+    transform: rotate(45deg) translate(-175px, -46px);
 }
 .rule_title{
     position: relative;
@@ -517,9 +516,9 @@ h3{
     right: 0;
     width: 10px;
     height: 10px;
-    border-top: 5px solid #41D3B1;
-    border-right: 5px solid #41D3B1;
-    transform: rotate(45deg) translate(-38px, 28px);
+    border-top: 3px solid #41D3B1;
+    border-right: 3px solid #41D3B1;
+    transform: rotate(45deg) translate(-49px, 42px);
 }
 .map{
     margin: 0 auto;
