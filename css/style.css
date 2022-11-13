@@ -25,7 +25,7 @@ body{
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     padding: 16px 0;
     background-color: #FFFFFF;
@@ -105,13 +105,13 @@ a{
     font-size: 20px;
 }
 .top_title{
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     margin-bottom: 8px;
 }
 .top_txt{
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
     margin-top: 0px;
 }
 .topimg{
@@ -123,33 +123,29 @@ a{
 }
 .top_a{
     font-size: 16px;
-}
-.top_btn{
     border:#41D3B1;
     background-color: #41D3B1;
     box-shadow: 5px 5px 10px #cccccc;
-    height: 8%;
+    line-height: 48px;
     width: 100%;
     font-size: 16px;
     border-radius: 30px;
     display: block;
     margin: 0 auto;
-    position: relative;  
+    position: relative;
+    text-align: center;
 }
-.top_btn:hover{
-    opacity: 0.6;
-    transition: 0.2s;
-}
-.top_btn span{
+.top_a span{
     position: absolute;
     content: "";
     color: transparent;
+    top: 50%;
     right: 0;
     width: 10px;
     height: 10px;
     border-top: 3px solid #FFFFFF;
     border-right: 3px solid #fff;
-    transform: rotate(45deg) translate(-20px, 28px);
+    transform: rotate(45deg) translate(-35px, 28px);
 }
 a{
     color: white;
@@ -214,29 +210,28 @@ iframe{
     border:3px solid#41D3B1;
     background-color: #FFFFFF;
     box-shadow: 5px 5px 10px #cccccc;
-    height: 60px;
-    width: 60%;
+    line-height: 48px;
+    width: 72.53%;
     font-size: 16px;
     border-radius: 30px;
     display: block;
     margin: 40px auto 0;
     position: relative; 
-}
-.sc_btn a{
     color: #41D3B1;
-    font-size: 16px;
+    text-align: center;
     font-weight: bold;
 }
 .sc_btn span{
     position: absolute;
     content: "";
     color: transparent;
+    top: 50%;
     right: 0;
     width: 10px;
     height: 10px;
     border-top: 5px solid #41D3B1;
     border-right: 5px solid #41D3B1;
-    transform: rotate(45deg) translate(-25px, 33px);
+    transform: rotate(45deg) translate(-38px, 28px);
 }
 .main_sc{
     width: 90%;
@@ -280,9 +275,22 @@ li{
     margin:  20px auto;
     margin-bottom: 0px;
 }
+.bag_box{
+    width: 87.2%;
+    gap: 16px;
+    display: flex;
+    margin:  40px auto;
+    margin-bottom: 0px;
+}
 .sub_box_img{
     width: 112px;
     height: 112px;
+}
+.bag_2{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 24px;
+    background-color: #FFFFFF;
 }
 h3{
     margin-top: 0;
@@ -293,13 +301,16 @@ h3{
 .sub_txt{
     margin-top: 0;
     font-size: 12px;
+    margin-bottom: 8px;
     color: #707070;
 }
 .nedan{
     width: 87.2%;
     display: block;
-    margin: 0 auto;
-    margin-top: 0;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding-bottom: 4px;
+    padding-top: 8px;
     text-align: end;
     color: #2B2B2E;
 }
@@ -327,7 +338,8 @@ h3{
 .nuub_btn{
     display: block;
     width: 72.53vw;
-    height: 48px;
+    line-height: 48px;
+    text-align: center;
     margin: 0 auto;
     border: #F52929;
     background-color: #F52929;
@@ -337,12 +349,13 @@ h3{
     position: absolute;
     content: "";
     color: transparent;
+    top: 50%;
     right: 0;
     width: 10px;
     height: 10px;
     border-top: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
-    transform: rotate(45deg) translate(-47px, 55px);
+    transform: rotate(45deg) translate(-305px, -155px);
 }
 .nuub_btn a{
     font-size: 16px;
@@ -412,6 +425,7 @@ h3{
 .fee_box{
     width: 87.2%;
     margin: 0 auto;
+    margin-top: 24px;
     text-align: center;
 }
 .fee_box_txt{
