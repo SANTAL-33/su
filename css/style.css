@@ -7,6 +7,7 @@
 body{
     margin: 0;
     background-color: #F1F1F5;
+    position: relative;
 }
 .kv{
     padding: 20px;
@@ -113,6 +114,7 @@ a{
     font-size: 14px;
     margin-bottom: 24px;
     margin-top: 0px;
+    color: #707070;
 }
 .topimg{
     display: block;
@@ -205,7 +207,7 @@ iframe{
 .sc_txt{
     font-size: 16px;
     margin-top: 22px;
-    margin-bottom: 0;  
+    margin-bottom: 0;
 }
 .sc_btn{
     border:3px solid#41D3B1;
@@ -217,7 +219,7 @@ iframe{
     border-radius: 30px;
     display: block;
     margin: 40px auto 0;
-    position: relative; 
+    position: relative;
     color: #41D3B1;
     text-align: center;
     font-weight: bold;
@@ -232,7 +234,7 @@ iframe{
     height: 10px;
     border-top: 3px solid #41D3B1;
     border-right: 3px solid #41D3B1;
-    transform: rotate(45deg) translate(-65px, 58px);
+    transform: rotate(45deg) translate(-58px, 50px);
 }
 .main_sc{
     width: 90%;
@@ -357,7 +359,7 @@ h3{
     height: 10px;
     border-top: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
-    transform: rotate(45deg) translate(-175px, -46px);
+    transform: rotate(45deg) translate(-86px, 25px);
 }
 .rule_title{
     position: relative;
@@ -567,4 +569,68 @@ iframe{
     height: 54px;
     margin:auto 0 0 0;
 }
+
+/* モーダル */
+/* .modal-back {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    visibility: hidden;
+    z-index: 10;
+}
+.modal {
+    background-color: #fff;
+    width: 87.2%;
+    height: 59.3vh;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: opacity .3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+}
+.close {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    cursor: pointer;
+}
+.close_line {
+    width: 4px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.close_line01 {
+    display: inline-block;
+    transform: rotate(45deg);
+}
+.close_line02 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+.modal-back.open {
+    opacity: 1;
+    visibility: inherit;
+}
+.modal.open {
+    opacity: 1;
+    visibility: inherit;
+}
+body.open{
+    height: 100vh;
+    overflow-y: hidden;
+} */
 
