@@ -27,7 +27,7 @@ window.addEventListener('scroll',function(){
   console.log(closeBtn);
 
   // イベントを付加
-  window.addEventListener('load', function(e) {
+  window.addEventListener('DOMContentLoaded', function(e) {
       e.preventDefault();
       modalBack.classList.add('open');
       modal.classList.add('open');
