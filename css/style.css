@@ -586,7 +586,7 @@ iframe{
 .modal {
     background-color: #fff;
     width: 87.2%;
-    height: 55.3vh;
+    height: 368px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -648,7 +648,9 @@ body.open{
 .modal_btn{
     position: relative;
     display: block;
-    width: 72.53%;
+    max-width: 189px;
+    padding-left: 36px;
+    padding-right: 60px;
     line-height: 48px;
     text-align: center;
     margin: 0 auto;
@@ -667,6 +669,6 @@ body.open{
     height: 10px;
     border-top: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
-    transform: rotate(45deg) translate(-13px, 5px);
+    transform: rotate(45deg) translate(-30px, 22px);
 }
 
