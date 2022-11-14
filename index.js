@@ -28,12 +28,14 @@ window.addEventListener('scroll',function(){
 
   // イベントを付加
   window.addEventListener('DOMContentLoaded', function(e) {
-      e.preventDefault();
-      modalBack.classList.add('open');
-      modal.classList.add('open');
-      body.classList.add('open');
+    if(!this.localStorage.getItem('stop_modal')){
+        this.localStorage.setItem('stop_modal','on');
+        e.preventDefault();
+        modalBack.classList.add('open');
+        modal.classList.add('open');
+        body.classList.add('open');
+    }
   });
-
   closeBtn.addEventListener('click', function() {
     modalBack.classList.remove('open');
     modal.classList.remove('open');
