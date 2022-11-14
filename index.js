@@ -28,8 +28,8 @@ window.addEventListener('scroll',function(){
 
   // イベントを付加
   window.addEventListener('DOMContentLoaded', function(e) {
-    if(!this.localStorage.getItem('stop_modal')){
-        this.localStorage.setItem('stop_modal','on');
+    if(!sessionStorage.getItem('stop_modal')){
+        sessionStorage.setItem('stop_modal','on');
         e.preventDefault();
         modalBack.classList.add('open');
         modal.classList.add('open');
