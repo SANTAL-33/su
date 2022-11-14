@@ -339,6 +339,7 @@ h3{
     margin: 0 auto;
 }
 .nuub_btn{
+    position: relative;
     display: block;
     width: 72.53%;
     line-height: 48px;
@@ -359,7 +360,7 @@ h3{
     height: 10px;
     border-top: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
-    transform: rotate(45deg) translate(-86px, 25px);
+    transform: rotate(45deg) translate(-20px, 12px);
 }
 .rule_title{
     position: relative;
@@ -505,7 +506,7 @@ h3{
     border-radius: 30px;
     display: block;
     margin: 16px auto 0;
-    position: relative; 
+    position: relative;
     color: #41D3B1;
     text-align: center;
     font-weight: bold;
@@ -571,7 +572,7 @@ iframe{
 }
 
 /* モーダル */
-/* .modal-back {
+.modal-back {
     width: 100%;
     height: 100vh;
     background-color: rgba(0,0,0,.6);
@@ -585,7 +586,7 @@ iframe{
 .modal {
     background-color: #fff;
     width: 87.2%;
-    height: 59.3vh;
+    height: 55.3vh;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -632,5 +633,40 @@ iframe{
 body.open{
     height: 100vh;
     overflow-y: hidden;
-} */
+}
+.modal_img{
+    display: block;
+    margin: 40px auto;
+}
+.modal_txt{
+    color: #F52929;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.modal_btn{
+    position: relative;
+    display: block;
+    width: 72.53%;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    border: #F52929;
+    background-color: #F52929;
+    border-radius: 30px;
+}
+.modal_btn span{
+    position: absolute;
+    content: "";
+    color: transparent;
+    top: 50%;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+    transform: rotate(45deg) translate(-13px, 5px);
+}
 

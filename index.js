@@ -13,29 +13,29 @@ window.addEventListener('scroll',function(){
     }
 });
 
-//   // body要素を取得
-//   const body = document.getElementsByTagName('body')[0];
-//   console.log(body);
-//   // モーダルの背景を取得
-//   const modalBack = document.querySelector('.modal-back');
-//   console.log(modalBack);
-//   // モーダルを取得
-//   const modal = document.querySelector('.modal');
-//   console.log(modal);
-//   // ✕ボタンを取得
-//   const closeBtn = document.querySelector('.close');
-//   console.log(closeBtn);
+  // body要素を取得
+  const body = document.getElementsByTagName('body')[0];
+  console.log(body);
+  // モーダルの背景を取得
+  const modalBack = document.querySelector('.modal-back');
+  console.log(modalBack);
+  // モーダルを取得
+  const modal = document.querySelector('.modal');
+  console.log(modal);
+  // ✕ボタンを取得
+  const closeBtn = document.querySelector('.close');
+  console.log(closeBtn);
 
-//   // イベントを付加
-//   window.addEventListener('load', function(e) {
-//       e.preventDefault();
-//       modalBack.classList.add('open');
-//       modal.classList.add('open');
-//       body.classList.add('open');
-//   });
+  // イベントを付加
+  window.addEventListener('load', function(e) {
+      e.preventDefault();
+      modalBack.classList.add('open');
+      modal.classList.add('open');
+      body.classList.add('open');
+  });
 
-//   closeBtn.addEventListener('click', function() {
-//     modalBack.classList.remove('open');
-//     modal.classList.remove('open');
-//     body.classList.remove('open');
-//   });
+  closeBtn.addEventListener('click', function() {
+    modalBack.classList.remove('open');
+    modal.classList.remove('open');
+    body.classList.remove('open');
+  });
